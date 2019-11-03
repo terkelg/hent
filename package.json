@@ -1,0 +1,45 @@
+{
+  "name": "hent",
+  "version": "1.0.0",
+  "repository": "terkelg/hent",
+  "description": "Utility to fetch resources into buffers",
+  "module": "dist/hent.mjs",
+  "main": "dist/hent.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Terkel Gjervig",
+    "email": "terkel@terkel.com",
+    "url": "https://terkel.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "get",
+    "http",
+    "https",
+    "files",
+    "fetch",
+    "buffer",
+    "request",
+    "download",
+    "networking"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "pretest": "npm run build",
+    "prepublish": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "rollup": "^1.26.3",
+    "tap-spec": "5.0.0",
+    "tape": "4.11.0"
+  }
+}
