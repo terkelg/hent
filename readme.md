@@ -1,8 +1,8 @@
 # hent [![build status](https://badgen.now.sh/github/status/terkelg/hent)](https://github.com/terkelg/hent/actions) [![codecov](https://badgen.now.sh/codecov/c/github/terkelg/hent)](https://codecov.io/gh/terkelg/hent)
 
-> A micro utility to download files in node
+> Tiny utility to fetch remote files into buffers
 
-hent is a small, promise based, utility to download files into buffers.
+hent is a small, promise based, utility to download remote files into nodejs buffers.
 Protocol and redirecrts are automatically handled for you.
 
 
