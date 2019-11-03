@@ -2,7 +2,7 @@
   "name": "hent",
   "version": "1.0.0",
   "repository": "terkelg/hent",
-  "description": "Utility to fetch resources into buffers",
+  "description": "Utility to fetch files into buffers",
   "module": "dist/hent.mjs",
   "main": "dist/hent.js",
   "types": "index.d.ts",

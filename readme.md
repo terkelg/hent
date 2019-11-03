@@ -8,7 +8,7 @@ Protocol and redirecrts are automatically handled for you.
 
 ## Features
 
-- `Promise`- based
+- Promise based
 - Supports HTTP and HTTPS protocols
 - Follow redirects
 - Dependency free
