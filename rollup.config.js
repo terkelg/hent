@@ -1,5 +1,4 @@
 import pkg from './package.json';
-// import commonjs from 'rollup-plugin-commonjs';
 
 export default [
 	{

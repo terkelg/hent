@@ -42,7 +42,7 @@ const {res, buffer} = await hent('https://example.com/cat.png');
 
 ## API
 
-### hent(url)
+### hent(url, [opts])
 Returns: `Promise <Object>`
 
 The returned object has two properties: `buffer` and `res`.
@@ -57,6 +57,12 @@ Type: `String`
 
 URL to the resource you want to download.<br>
 Protocol is automatically detected.
+
+### opts
+Type: `Object`
+
+Optional options object passed to [`http.get`](https://nodejs.org/dist/latest-v6.x/docs/api/http.html#http_http_get_options_callback).
+Use this to define custom headers etc.
 
 
 ## License

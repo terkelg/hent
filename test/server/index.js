@@ -10,6 +10,7 @@ function handler(req, res) {
 		return res.end();
 	}
 	res.setHeader('Content-Type', 'image/jpeg');
+	res.setHeader('x-test', req.headers['x-test'] || '');
 	res.end(fs.readFileSync(path));
 }
 

@@ -29,3 +29,21 @@ test('usage :: redirect', async t => {
 	t.end();
 });
 
+test('usage :: options', async t => {
+	try {
+	const ctx = await server();
+	const x = await hent(`http://localhost:${ctx.port}`, { headers:
+		{ 'x-test': 'hent-test' }
+	});
+	t.is(typeof x, 'object');
+	t.is(typeof x.res, 'object');
+	t.is(x.res.statusCode, 200);
+	t.is(x.res.headers['x-test'], 'hent-test');
+	t.ok(x.buffer instanceof Buffer);
+	ctx.close();
+	t.end();
+	} catch (e) {
+		console.log(e);
+	}
+});
+
