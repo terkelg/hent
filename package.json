@@ -1,6 +1,6 @@
 {
   "name": "hent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "terkelg/hent",
   "description": "Tiny utility to fetch remote files into buffers",
   "module": "dist/hent.mjs",
