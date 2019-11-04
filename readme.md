@@ -3,7 +3,7 @@
 > Tiny utility to fetch remote files into buffers
 
 hent is a small, promise based, utility to download remote files into nodejs buffers.
-Protocol and redirecrts are automatically handled for you.
+Protocol and redirects are automatically handled for you.
 
 
 ## Features
