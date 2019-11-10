@@ -5,7 +5,6 @@
   "description": "Tiny utility to fetch remote files into buffers",
   "module": "dist/hent.mjs",
   "main": "dist/hent.js",
-  "types": "index.d.ts",
   "license": "MIT",
   "files": [
     "dist"
